@@ -1,0 +1,21 @@
+{
+  "name": "koustuv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Koustuv Biswa Prakash",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-http": "^1.22.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2"
+  }
+}
